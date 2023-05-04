@@ -1,0 +1,33 @@
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 16px;
+    row-gap: 40px;
+    padding: 20px;
+}
+
+.video-preview {
+    width: 100%;
+}
+
+.video-preview_thumbnails {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.video-preview_info {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 8px;
+    padding: 6px;
+}
+
+.video-preview_info_avatar {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.video-preview_info_text {
+    font-family: Roboto, Arial;
+}
+
