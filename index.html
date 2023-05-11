@@ -14,8 +14,42 @@
 
 <body>
 
-    <header>
-        <input type="text" placeholder="Search">
+    <header class="header">
+        <section class="header__left" > 
+            <img class="header__left__menu" src="./images/icons/hamburger-menu.svg" alt="">
+            <img class="header__left__logo" src="./images/icons/youtube-logo.svg" alt="">
+         </section>
+        
+         <section class="header__middle"> 
+            <input class="header__middle__input" type="text" placeholder="Search">
+            <button class="header__middle__search" >
+                <img class="header__middle__search__img"src="./images/icons/search.svg" alt="">
+            </button>
+            <button class="header__middle__vsearch" >
+                <img class="header__middle__vsearch__img" src="./images/icons/voice-search-icon.svg" alt="">
+            </button>
+           
+        </section>
+
+
+        <section class="header__right">
+            <div class="header__right__icon">
+                <img class="h-24px" src="./images/icons/upload.svg" alt="">
+              </div>
+        
+              <div class="header__right__icon">
+                <img class="h-24px" src="./images/icons/youtube-apps.svg" alt="">
+              </div>
+        
+              <div class="header__right__icon">
+                <img class="h-24px" src="./images/icons/notifications.svg" alt="">
+              </div>
+        
+              <div class="header__right__icon">
+                <img class="h-32px" src="./images/channel-pictures/my-channel.png" alt="">
+              </div>
+        </section>
+        
     </header>
 
     <main class="video-grid">
