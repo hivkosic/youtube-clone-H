@@ -8,24 +8,22 @@
     right: 0;
     height: 55px;
     background-color: white;
+    border-bottom: 1px solid rgb(228, 228, 228);
 }
 
 
 .header__left {
     display: flex;
-    justify-content: space-between;
     height: 24px;
-    margin-left: 24px;
     background-color: white;
 }
 
 .header__left__menu {
-    margin: 0 25px;
+    margin: 0 24px;
     height: 24px;
 }
 
 .header__left__logo {
-
     height: 24px;
 }
 
@@ -52,7 +50,7 @@
 
 .header__middle__input::placeholder {
     font-size: 16px;
-    color:rgb(54, 5, 133);
+    color: rgb(54, 5, 133);
 }
 
 .header__middle__search {
