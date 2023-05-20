@@ -9,6 +9,7 @@
     height: 55px;
     background-color: white;
     border-bottom: 1px solid rgb(228, 228, 228);
+    z-index: 2;
 }
 
 
@@ -46,12 +47,14 @@
     cursor: pointer;
     font-family: Roboto, Arial;
     font-size: 14px;
+    color: blueviolet;
 }
 
 .header__middle__input::placeholder {
     font-size: 16px;
     color: rgb(54, 5, 133);
 }
+
 
 .header__middle__search {
     height: 39px;
@@ -65,7 +68,6 @@
     margin-top: 4px;
     height: 24px;
 }
-
 
 .header__middle__vsearch {
     height: 38px;
@@ -87,3 +89,47 @@
     margin-right: 20px;
     width: 180px;
 }
+
+
+.tooltip {
+    position: relative;   
+   
+}
+
+.icon-counter {
+    position: relative;   
+    display: flex;  
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+    padding: 4px 8px;
+    display: block;
+    margin-top: 20px;
+    margin-left: -20px;
+    border-radius: 2px;
+    color: white;
+    background-color: darkgrey;
+    white-space: nowrap;
+}
+
+.notification-counter {
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    border: 1px solid red;
+    padding: 2px 5px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 5;
+    color: white;
+    font-size: 11px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+

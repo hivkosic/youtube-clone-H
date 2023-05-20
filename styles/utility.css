@@ -6,18 +6,3 @@
     height: 32px;
 }
 
-.flex {
-    display: flex;
-}
-
-.align-center {
-    align-items: center;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.m-6 {
-    margin-bottom: 6px;
-}
